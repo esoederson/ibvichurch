@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBVI Church - Igreja Batista Vale do Ivinhema</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://cdn.openai.com/chatgpt/ibvi/Ibvichannels_banner.png') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      border-left: 5px solid #fff;
+      padding-left: 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: none;
+      border-radius: 4px;
+    }
+    form button {
+      background: #2c7a7b;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background: #285e61;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="https://cdn.openai.com/chatgpt/ibvi/IBVI%20Church%20branco.png" alt="IBVI Church logo">
+    </div>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#quem-somos">Quem Somos</a>
+      <a href="#visao">Missão e Visão</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#transmissoes">Ao Vivo</a>
+      <a href="#mensagens">Mensagens</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Bem-vindo à IBVI Church<br>Igreja Batista Vale do Ivinhema</h1>
+  </section>
+
+  <section id="quem-somos">
+    <h2 class="section-title">Quem Somos</h2>
+    <p>Somos uma igreja comprometida com o ensino da Palavra de Deus, com a comunhão cristã e com o serviço ao próximo. Estamos localizados no coração do Vale do Ivinhema e queremos ser um lugar de encontro com Deus.</p>
+  </section>
+
+  <section id="visao">
+    <h2 class="section-title">Missão e Visão</h2>
+    <p><strong>Missão:</strong> Proclamar o evangelho de Jesus Cristo, discipulando vidas e promovendo transformação.</p>
+    <p><strong>Visão:</strong> Ser uma igreja relevante, acolhedora e missionária, que vive para glorificar a Deus em todas as áreas.</p>
+  </section>
+
+  <section id="agenda">
+    <h2 class="section-title">Agenda</h2>
+    <ul>
+      <li>Domingo - Culto da Família: 19h</li>
+      <li>Quarta-feira - Estudo Bíblico: 19h30</li>
+      <li>Sábado - Encontro de Jovens PJ: 18h</li>
+    </ul>
+  </section>
+
+  <section id="transmissoes">
+    <h2 class="section-title">Cultos ao Vivo</h2>
+    <p>Assista aos nossos cultos e eventos ao vivo diretamente aqui ou através do nosso canal do <a href="https://www.youtube.com/@ibvichurchnovaandradina911" target="_blank" style="color:#00bcd4">YouTube</a>.</p>
+    <iframe width="100%" height="400" src="https://www.youtube.com/embed/live_stream?channel=ibvichurchnovaandradina911" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <section id="mensagens">
+    <h2 class="section-title">Mensagens</h2>
+    <div class="grid">
+      <div>
+        <h3>Alegrai-vos Sempre no Senhor</h3>
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/eC1xjCTcbp0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div>
+        <h3>Fé que Permanece</h3>
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/z1F8g5E89uc" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div>
+        <h3>Esperança Viva</h3>
+        <iframe width="100%" height="200" src="https://www.youtube.com/embed/2VJyMVaAMvk" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2 class="section-title">Fale Conosco</h2>
+    <form>
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required><br />
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 IBVI Church - Igreja Batista Vale do Ivinhema. Todos os direitos reservados.<br />
+    <a href="https://www.instagram.com/ibvichurch" style="color:#00bcd4" target="_blank">@ibvichurch</a> |
+    <a href="https://www.instagram.com/pj.ibvichurch" style="color:#00bcd4" target="_blank">PJ - Ministério Jovem</a>
+  </footer>
+</body>
+</html>
